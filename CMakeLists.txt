@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.20)
+
+project(
+    right_lick_dojo
+    DESCRIPTION "Bushido is a moral code concerning samurai attitudes, behavior and lifestyle"
+    LANGUAGES CXX
+)
+
+set(CMAKE_CXX_STANDARD 17)
+
+# Because purpose is write portable code
+# safe versions of standard C functions should be avoided
+if(WIN32)
+    add_definitions(-D_CRT_SECURE_NO_WARNINGS)
+endif()
+
+enable_testing()
+
+add_subdirectory(example_project)
