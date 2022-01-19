@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 
 project(
-    4b
+    4B
     VERSION 1.0
     DESCRIPTION "this is 4B from codeforces"
     LANGUAGES CXX
