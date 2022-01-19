@@ -18,6 +18,7 @@ enable_testing()
 
 add_subdirectory(example_project)
 add_subdirectory(4A)
+add_subdirectory(4B)
 add_subdirectory(4D)
 add_subdirectory(50A)
 add_subdirectory(71A)
